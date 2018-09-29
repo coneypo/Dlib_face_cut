@@ -2,26 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d84929e-6bd2-4789-8d67-986d2f10430f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dlib_cut_face.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dlib_cut_face_save.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/cut_single_pics/img_face_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/cut_single_pics/img_face_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/cut_single_pics/img_face_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/cut_single_pics/img_face_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/cut_single_pics/img_face_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/cut_single_pics/img_face_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/cut_single_pics/img_face_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/test_faces_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/test_faces_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/test_faces_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/test_faces_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/test_faces_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/test_faces_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/test_faces_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/test_faces_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/test_faces_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/test_faces_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crop_faces_save.py" beforeDir="false" afterPath="$PROJECT_DIR$/crop_faces_save.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crop_faces_save_folder/img_face_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crop_faces_save_folder/img_face_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crop_faces_save_folder/img_face_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crop_faces_save_folder/img_face_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crop_faces_save_folder/img_face_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crop_faces_save_folder/img_face_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crop_faces_save_folder/img_face_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crop_faces_show.py" beforeDir="false" afterPath="$PROJECT_DIR$/crop_faces_show.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/test_faces_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/test_faces_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/test_faces_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/test_faces_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/test_faces_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/test_faces_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/test_faces_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/test_faces_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/test_faces_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/test_faces_9.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +33,10 @@
     <session id="-1914146617">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -49,35 +51,38 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="85" />
+          <entry key="py" value="286" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="85" />
+          <entry key="Python" value="286" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crop_faces_save.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="15">
+              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
               <folding>
-                <element signature="e#75#107#0" expanded="true" />
+                <element signature="e#168#200#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crop_faces_show.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="-401">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <folding>
+                <element signature="e#168#200#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,14 +104,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/dlib_cut_face.py" />
-        <option value="$PROJECT_DIR$/crop_faces_save.py" />
         <option value="$PROJECT_DIR$/crop_faces_show.py" />
+        <option value="$PROJECT_DIR$/crop_faces_save.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
-    <option name="y" value="130" />
+    <option name="x" value="880" />
+    <option name="y" value="93" />
     <option name="width" value="1546" />
     <option name="height" value="929" />
   </component>
@@ -131,6 +136,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.crop_faces_show">
+  <component name="RunManager" selected="Python.crop_faces_save">
     <configuration name="crop_faces_save" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Dlib_face_cut" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,8 +221,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.crop_faces_show" />
         <item itemvalue="Python.crop_faces_save" />
+        <item itemvalue="Python.crop_faces_show" />
         <item itemvalue="Python.dlib_cut_face" />
       </list>
     </recent_temporary>
@@ -235,23 +241,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="130" width="1546" height="929" extended-state="0" />
+    <frame x="880" y="93" width="1546" height="929" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24950755" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24918033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.354798" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25470513" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -261,33 +267,25 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dlib_cut_face.py">
+    <entry file="file://$PROJECT_DIR$/dlib_cut_face.py" />
+    <entry file="file://$PROJECT_DIR$/dlib_cut_face_save.py" />
+    <entry file="file://$PROJECT_DIR$/crop_faces_show.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        <state relative-caret-position="-401">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
-            <element signature="e#75#107#0" expanded="true" />
+            <element signature="e#168#200#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dlib_cut_face_save.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/crop_faces_save.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="15">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding>
-            <element signature="e#75#107#0" expanded="true" />
+            <element signature="e#168#200#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crop_faces_show.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>

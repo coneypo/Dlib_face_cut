@@ -1,5 +1,5 @@
 # created at 2018-01-22
-# updated at 2018-09-06
+# updated at 2018-09-29
 
 # Author:   coneypo
 # Blog:     http://www.cnblogs.com/AdaminXie
@@ -9,18 +9,18 @@ import dlib         # 人脸识别的库dlib
 import numpy as np  # 数据处理的库numpy
 import cv2          # 图像处理的库OpenCv
 
-# Dlib 预测器
+# Dlib 检测器
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
 
 # 读取图像
-path = "images/"
-img = cv2.imread(path+"test_faces_5.jpg")
+path = "faces_for_test/"
+img = cv2.imread(path+"test_faces_1.jpg")
 
-# Dlib检测
+# Dlib 检测
 dets = detector(img, 1)
 
-print("人脸数：", len(dets))
+print("人脸数：", len(dets), "\n")
 
 # 记录人脸矩阵大小
 height_max = 0
@@ -48,9 +48,9 @@ for k, d in enumerate(dets):
         height_max = height_max
 
 # 绘制用来显示人脸的图像的大小
-print("img_blank的大小："
+print("窗口大小："
       , '\n', "高度 / height:", height_max
-      , '\n', "宽度 / width:", width_sum)
+      , '\n', "宽度 / width: ", width_sum)
 
 # 生成用来显示的图像
 img_blank = np.zeros((height_max, width_sum, 3), np.uint8)
