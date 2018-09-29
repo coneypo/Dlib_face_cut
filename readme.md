@@ -6,5 +6,5 @@ crop_faces_save.py
 >将检测到的人脸生成单个 image，存储到本地路径；
 
 <br>
-Author : coneypo
+Author : coneypo<br>
 Updated: Sep 29
