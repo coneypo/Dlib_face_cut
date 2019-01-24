@@ -1,11 +1,11 @@
-# 调用摄像头，进行人脸捕获，和 68 个特征点的追踪
+# 调用摄像头实时单个/多个人脸检测，并依次在摄像头窗口，实时平铺显示检测到的人脸；
 
 # Author:   coneypo
 # Blog:     http://www.cnblogs.com/AdaminXie
 # GitHub:   https://github.com/coneypo/Dlib_face_detection_from_camera
 
-import dlib         # 人脸识别的库 Dlib
-import cv2          # 图像处理的库 OpenCv
+import dlib
+import cv2
 import time
 import numpy as np
 
@@ -43,8 +43,6 @@ while cap.isOpened():
     # 人脸数
     faces = detector(img_gray, 0)
 
-    # print(len(faces))
-
     # 待会要写的字体
     font = cv2.FONT_HERSHEY_SIMPLEX
 
@@ -60,28 +58,27 @@ while cap.isOpened():
 
                 height = d.bottom() - d.top()
                 width = d.right() - d.left()
-                
+
                 # 生成用来显示的图像
                 img_blank = np.zeros((height, width, 3), np.uint8)
 
                 # 记录每次开始写入人脸像素的宽度位置
                 blank_start = 0
+                # 如果没有超出摄像头边界
+                if (d.bottom() < 480) and (d.right() < 640):
+                    for k, d in enumerate(faces):
+                        height = d.bottom() - d.top()
+                        width = d.right() - d.left()
 
-                # 将人脸填充到img_blank
-                for k, d in enumerate(faces):
-
-                    height = d.bottom() - d.top()
-                    width = d.right() - d.left()
-
-                    if blank_start + width >480:
-                        break
-                    else:
-                        # 填充
-                        for i in range(height):
-                            for j in range(width):
-                                img_rd[i][blank_start + j] = img_rd[d.top() + i][d.left() + j]
-                        # 调整图像
-                        blank_start += width
+                        # 如果没有超出摄像头边界
+                        if ((d.top()+height) < 480) and ((d.left()+width)<640):
+                            # 填充
+                            for i in range(height):
+                                for j in range(width):
+                                    img_rd[i][blank_start + j] = \
+                                        img_rd[d.top() + i][d.left() + j]
+                            # 调整图像
+                            blank_start += width
 
             cv2.putText(img_rd, "Faces in all: " + str(len(faces)), (20, 350), font, 0.8, (0, 0, 0), 1, cv2.LINE_AA)
 
@@ -96,8 +93,11 @@ while cap.isOpened():
     # 按下 's' 键保存
     if k == ord('s'):
         cnt += 1
-        print(path_screenshots + "screenshot" + "_" + str(cnt) + "_" + time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime()) + ".jpg")
-        cv2.imwrite(path_screenshots + "screenshot" + "_" + str(cnt) + "_" + time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime()) + ".jpg", img_rd)
+        print(path_screenshots + "screenshot" + "_" + str(cnt) + "_" + time.strftime("%Y-%m-%d-%H-%M-%S",
+                                                                                     time.localtime()) + ".jpg")
+        cv2.imwrite(path_screenshots + "screenshot" + "_" + str(cnt) + "_" + time.strftime("%Y-%m-%d-%H-%M-%S",
+                                                                                           time.localtime()) + ".jpg",
+                    img_rd)
 
     cv2.namedWindow("camera", 1)
     cv2.imshow("camera", img_rd)
