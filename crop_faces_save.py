@@ -11,11 +11,11 @@ import cv2          # 图像处理的库OpenCv
 import os
 
 # 读取图像的路径
-path_read = "faces_for_test/"
+path_read = "data/images/faces_for_test/"
 img = cv2.imread(path_read+"test_faces_3.jpg")
 
 # 用来存储生成的单张人脸的路径
-path_save = "faces_separated/"
+path_save = "data/images/faces_separated/"
 
 
 # Delete old images
@@ -33,7 +33,7 @@ clear_images()
 
 # Dlib 预测器
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
+predictor = dlib.shape_predictor('data/dlib/shape_predictor_68_face_landmarks.dat')
 
 
 # Dlib 检测

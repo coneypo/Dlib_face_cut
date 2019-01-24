@@ -11,23 +11,23 @@ import cv2          # 图像处理的库OpenCv
 
 # Dlib 检测器
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
+predictor = dlib.shape_predictor('data/dlib/shape_predictor_68_face_landmarks.dat')
 
 # 读取图像
-path = "faces_for_test/"
+path = "data/images/faces_for_test/"
 img = cv2.imread(path+"test_faces_1.jpg")
 
 # Dlib 检测
-dets = detector(img, 1)
+faces = detector(img, 1)
 
-print("人脸数：", len(dets), "\n")
+print("人脸数：", len(faces), "\n")
 
 # 记录人脸矩阵大小
 height_max = 0
 width_sum = 0
 
 # 计算要生成的图像 img_blank 大小
-for k, d in enumerate(dets):
+for k, d in enumerate(faces):
 
     # 计算矩形大小
     # (x,y), (宽度width, 高度height)
@@ -59,7 +59,7 @@ img_blank = np.zeros((height_max, width_sum, 3), np.uint8)
 blank_start = 0
 
 # 将人脸填充到img_blank
-for k, d in enumerate(dets):
+for k, d in enumerate(faces):
 
     height = d.bottom()-d.top()
     width = d.right()-d.left()

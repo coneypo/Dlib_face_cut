@@ -4,24 +4,22 @@
     <list default="true" id="7d84929e-6bd2-4789-8d67-986d2f10430f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crop_faces_save.py" beforeDir="false" afterPath="$PROJECT_DIR$/crop_faces_save.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crop_faces_save_folder/img_face_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crop_faces_save_folder/img_face_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crop_faces_save_folder/img_face_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crop_faces_save_folder/img_face_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crop_faces_save_folder/img_face_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crop_faces_save_folder/img_face_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crop_faces_save_folder/img_face_7.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/crop_faces_show.py" beforeDir="false" afterPath="$PROJECT_DIR$/crop_faces_show.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test_faces_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test_faces_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test_faces_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test_faces_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test_faces_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test_faces_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test_faces_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test_faces_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test_faces_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/test_faces_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces_for_test/test_faces_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces_for_test/test_faces_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces_for_test/test_faces_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces_for_test/test_faces_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces_for_test/test_faces_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces_for_test/test_faces_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces_for_test/test_faces_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces_for_test/test_faces_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces_for_test/test_faces_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces_for_test/test_faces_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces_separated/img_face_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces_separated/img_face_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faces_separated/img_face_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape_predictor_68_face_landmarks.dat" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,45 +27,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1914146617">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="286" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="286" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crop_faces_save.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state relative-caret-position="287">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="e#168#200#0" expanded="true" />
               </folding>
@@ -78,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crop_faces_show.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-401">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="240">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
                 <element signature="e#168#200#0" expanded="true" />
               </folding>
@@ -87,14 +53,43 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/faces_from_camera.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+              <folding>
+                <element signature="e#166#199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/how_to_use_camera.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>dets</find>
+      <find>im_rd</find>
+      <find>no face</find>
     </findStrings>
     <replaceStrings>
       <replace>faces</replace>
+      <replace>img_rd</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -104,22 +99,27 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/dlib_cut_face.py" />
-        <option value="$PROJECT_DIR$/crop_faces_show.py" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/README.rst" />
+        <option value="$PROJECT_DIR$/get_features_from_camera.py" />
         <option value="$PROJECT_DIR$/crop_faces_save.py" />
+        <option value="$PROJECT_DIR$/crop_faces_show.py" />
+        <option value="$PROJECT_DIR$/faces_from_camera.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="880" />
-    <option name="y" value="93" />
+    <option name="x" value="751" />
+    <option name="y" value="104" />
     <option name="width" value="1546" />
-    <option name="height" value="929" />
+    <option name="height" value="963" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,15 +127,25 @@
               <item name="Dlib_face_cut" type="b2602c69:ProjectViewProjectNode" />
               <item name="Dlib_face_cut" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Dlib_face_cut" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dlib_face_cut" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dlib_face_cut" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dlib_face_cut" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dlib_face_recognition_from_camera" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -150,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.crop_faces_save">
+  <component name="RunManager" selected="Python.faces_from_camera">
     <configuration name="crop_faces_save" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Dlib_face_cut" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,7 +203,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dlib_cut_face" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="faces_from_camera" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Dlib_face_cut" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,7 +215,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dlib_cut_face.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/faces_from_camera.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_features_from_camera" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Dlib_face_cut" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_features_from_camera.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="how_to_use_camera" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Dlib_face_cut" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/how_to_use_camera.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,15 +267,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.dlib_cut_face" />
       <item itemvalue="Python.crop_faces_save" />
       <item itemvalue="Python.crop_faces_show" />
+      <item itemvalue="Python.get_features_from_camera" />
+      <item itemvalue="Python.how_to_use_camera" />
+      <item itemvalue="Python.faces_from_camera" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.crop_faces_save" />
+        <item itemvalue="Python.faces_from_camera" />
         <item itemvalue="Python.crop_faces_show" />
-        <item itemvalue="Python.dlib_cut_face" />
+        <item itemvalue="Python.crop_faces_save" />
+        <item itemvalue="Python.get_features_from_camera" />
+        <item itemvalue="Python.how_to_use_camera" />
       </list>
     </recent_temporary>
   </component>
@@ -241,21 +297,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="880" y="93" width="1546" height="929" extended-state="0" />
+    <frame x="751" y="104" width="1546" height="963" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24918033" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16162944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25470513" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.52300245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3292978" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -263,28 +319,71 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dlib_cut_face.py" />
     <entry file="file://$PROJECT_DIR$/dlib_cut_face_save.py" />
-    <entry file="file://$PROJECT_DIR$/crop_faces_show.py">
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faces_for_test/test_faces_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faces_for_test/test_faces_2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_features_from_camera.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-401">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="278">
+          <caret line="64" column="14" lean-forward="true" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
+          <folding>
+            <element signature="e#215#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/how_to_use_camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crop_faces_save.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="e#168#200#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crop_faces_save.py">
+    <entry file="file://$PROJECT_DIR$/crop_faces_show.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="240">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="e#168#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faces_from_camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+          <folding>
+            <element signature="e#166#199#0" expanded="true" />
           </folding>
         </state>
       </provider>
