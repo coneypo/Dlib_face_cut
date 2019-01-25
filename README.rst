@@ -13,6 +13,10 @@ Introduction
    将检测到的人脸生成单个图像存储到本地路径;
 
 
+#. faces_from_camera.py
+
+   将检测到的人脸,依次在摄像头窗口实时平铺显示;
+
 More
 ****
 

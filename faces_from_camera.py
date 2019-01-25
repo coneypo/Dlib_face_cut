@@ -7,7 +7,6 @@
 import dlib
 import cv2
 import time
-import numpy as np
 
 # 储存截图的目录
 path_screenshots = "data/images/screenshots/"
@@ -18,20 +17,13 @@ predictor = dlib.shape_predictor('data/dlib/shape_predictor_68_face_landmarks.da
 # 创建 cv2 摄像头对象
 cap = cv2.VideoCapture(0)
 
-# cap.set(propId, value)
 # 设置视频参数，propId 设置的视频参数，value 设置的参数值
 cap.set(3, 960)
 
 # 截图 screenshots 的计数器
-cnt = 0
+ss_cnt = 0
 
-# cap.isOpened() 返回 true/false 检查初始化是否成功
 while cap.isOpened():
-
-    # cap.read()
-    # 返回两个值：
-    #    一个布尔值 true/false，用来判断读取视频是否成功/是否到视频末尾
-    #    图像对象，图像的三维矩阵
     flag, img_rd = cap.read()
 
     # 每帧数据延时 1ms，延时为 0 读取的是静态帧
@@ -50,35 +42,31 @@ while cap.isOpened():
     if k == ord('q'):
         break
     else:
+        # 检测到人脸
         if len(faces) != 0:
-            # 检测到人脸
-            for kk, d in enumerate(faces):
+            # 记录每次开始写入人脸像素的宽度位置
+            faces_start_width = 0
+
+            for face in faces:
                 # 绘制矩形框
-                cv2.rectangle(img_rd, tuple([d.left(), d.top()]), tuple([d.right(), d.bottom()]), (0, 255, 255), 2)
+                cv2.rectangle(img_rd, tuple([face.left(), face.top()]), tuple([face.right(), face.bottom()]),
+                              (0, 255, 255), 2)
 
-                height = d.bottom() - d.top()
-                width = d.right() - d.left()
+                height = face.bottom() - face.top()
+                width = face.right() - face.left()
 
-                # 生成用来显示的图像
-                img_blank = np.zeros((height, width, 3), np.uint8)
-
-                # 记录每次开始写入人脸像素的宽度位置
-                blank_start = 0
+                ### 进行人脸裁减 ###
                 # 如果没有超出摄像头边界
-                if (d.bottom() < 480) and (d.right() < 640):
-                    for k, d in enumerate(faces):
-                        height = d.bottom() - d.top()
-                        width = d.right() - d.left()
+                if (face.bottom() < 480) and (face.right() < 640) and \
+                        ((face.top() + height) < 480) and ((face.left() + width) < 640):
+                    # 填充
+                    for i in range(height):
+                        for j in range(width):
+                            img_rd[i][faces_start_width + j] = \
+                                img_rd[face.top() + i][face.left() + j]
 
-                        # 如果没有超出摄像头边界
-                        if ((d.top()+height) < 480) and ((d.left()+width)<640):
-                            # 填充
-                            for i in range(height):
-                                for j in range(width):
-                                    img_rd[i][blank_start + j] = \
-                                        img_rd[d.top() + i][d.left() + j]
-                            # 调整图像
-                            blank_start += width
+                # 更新 faces_start_width 的坐标
+                faces_start_width += width
 
             cv2.putText(img_rd, "Faces in all: " + str(len(faces)), (20, 350), font, 0.8, (0, 0, 0), 1, cv2.LINE_AA)
 
@@ -92,11 +80,11 @@ while cap.isOpened():
 
     # 按下 's' 键保存
     if k == ord('s'):
-        cnt += 1
-        print(path_screenshots + "screenshot" + "_" + str(cnt) + "_" + time.strftime("%Y-%m-%d-%H-%M-%S",
-                                                                                     time.localtime()) + ".jpg")
-        cv2.imwrite(path_screenshots + "screenshot" + "_" + str(cnt) + "_" + time.strftime("%Y-%m-%d-%H-%M-%S",
-                                                                                           time.localtime()) + ".jpg",
+        ss_cnt += 1
+        print(path_screenshots + "screenshot" + "_" + str(ss_cnt) + "_" + time.strftime("%Y-%m-%d-%H-%M-%S",
+                                                                                        time.localtime()) + ".jpg")
+        cv2.imwrite(path_screenshots + "screenshot" + "_" + str(ss_cnt) + "_" + time.strftime("%Y-%m-%d-%H-%M-%S",
+                                                                                              time.localtime()) + ".jpg",
                     img_rd)
 
     cv2.namedWindow("camera", 1)
