@@ -3,7 +3,7 @@
 
 # Author:   coneypo
 # Blog:     http://www.cnblogs.com/AdaminXie
-# GitHub:   https://github.com/coneypo/Dlib_face_recognition_from_camera
+# GitHub:   https://github.com/coneypo/Dlib_face_cut
 # Mail:     coneypo@foxmail.com
 
 import cv2
