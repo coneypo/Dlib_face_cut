@@ -1,13 +1,13 @@
 # created at 2018-01-22
-# updated at 2018-09-29
+# updated at 2019-07-26
 
 # Author:   coneypo
 # Blog:     http://www.cnblogs.com/AdaminXie
 # GitHub:   https://github.com/coneypo/Dlib_face_cut
 
-import dlib         # 人脸识别的库dlib
-import numpy as np  # 数据处理的库numpy
-import cv2          # 图像处理的库OpenCv
+import dlib         # 人脸识别的库 Dlib
+import numpy as np  # 数据处理的库 numpy
+import cv2          # 图像处理的库 OpenCv
 import os
 
 # 读取图像的路径
@@ -34,34 +34,31 @@ clear_images()
 # Dlib 预测器
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor('data/dlib/shape_predictor_68_face_landmarks.dat')
-
-
-# Dlib 检测
 faces = detector(img, 1)
 
-print("人脸数：", len(faces), '\n')
+print("人脸数 / faces in all:", len(faces), '\n')
 
-for k, d in enumerate(faces):
+for num, face in enumerate(faces):
 
     # 计算矩形大小
     # (x,y), (宽度width, 高度height)
-    pos_start = tuple([d.left(), d.top()])
-    pos_end = tuple([d.right(), d.bottom()])
+    pos_start = tuple([face.left(), face.top()])
+    pos_end = tuple([face.right(), face.bottom()])
 
     # 计算矩形框大小
-    height = d.bottom()-d.top()
-    width = d.right()-d.left()
+    height = face.bottom()-face.top()
+    width = face.right()-face.left()
 
     # 根据人脸大小生成空的图像
     img_blank = np.zeros((height, width, 3), np.uint8)
 
     for i in range(height):
         for j in range(width):
-                img_blank[i][j] = img[d.top()+i][d.left()+j]
+                img_blank[i][j] = img[face.top()+i][face.left()+j]
 
-    # cv2.imshow("face_"+str(k+1), img_blank)
+    # cv2.imshow("face_"+str(num+1), img_blank)
 
     # 存在本地
-    print("Save to:", path_save+"img_face_"+str(k+1)+".jpg")
-    cv2.imwrite(path_save+"img_face_"+str(k+1)+".jpg", img_blank)
+    print("Save into:", path_save+"img_face_"+str(num+1)+".jpg")
+    cv2.imwrite(path_save+"img_face_"+str(num+1)+".jpg", img_blank)
 
