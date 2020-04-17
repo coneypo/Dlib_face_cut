@@ -24,6 +24,11 @@ Introduction
 
       python3 faces_from_camera.py
 
+#. 将检测到的人脸,依次在摄像头窗口实时平铺显示(人脸对齐);
+
+   .. code-block:: bash
+
+      python3 faces_chip_from_camera.py
 
 
 More
