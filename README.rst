@@ -37,3 +37,5 @@ More
 * Author: coneypo
 
 * Mail:   coneypo@foxmail.com
+
+* AD: 用我的滴滴云 AI 大师推荐码: 7788, 购买滴滴云 GPU/vGPU/机器学习产品享 9 折优惠, 点击 https://www.didiyun.com/ 前往滴滴云官网
