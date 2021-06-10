@@ -4,6 +4,14 @@ Face Cropper
 Introduction
 ************
 
+抠出人脸
+
+.. image:: face_from_camera.png
+  :align: center
+
+Code
+****
+
 #. 将检测到的人脸剪切下来, 依次排序平铺显示在新的图像上;
 
    .. code-block:: bash
@@ -37,5 +45,3 @@ More
 * Author: coneypo
 
 * Mail:   coneypo@foxmail.com
-
-* AD: 用我的滴滴云 AI 大师推荐码: 7788, 购买滴滴云 GPU/vGPU/机器学习产品享 9 折优惠, 点击 https://www.didiyun.com/ 前往滴滴云官网

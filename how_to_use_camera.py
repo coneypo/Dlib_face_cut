@@ -1,5 +1,4 @@
-# OpenCv 调用摄像头
-# 默认调用笔记本摄像头
+# OpenCV 调用摄像头
 
 # Author:   coneypo
 # Blog:     http://www.cnblogs.com/AdaminXie
@@ -8,6 +7,7 @@
 
 import cv2
 
+# VideoCapture(0) 调用笔记本默认摄像头
 cap = cv2.VideoCapture(0)
 
 # cap.set(propId, value)
