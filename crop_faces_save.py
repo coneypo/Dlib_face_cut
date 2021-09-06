@@ -15,7 +15,7 @@ predictor = dlib.shape_predictor('data/dlib/shape_predictor_68_face_landmarks.da
 
 # 读取图像的路径
 path_read = "data/images/faces_for_test/"
-img = cv2.imread(path_read + "test_faces_10.jpg")
+img = cv2.imread(path_read + "test_faces_9.jpg")
 
 # 用来存储生成的单张人脸的路径
 path_save = "data/images/faces_separated/"
